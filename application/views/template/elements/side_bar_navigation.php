@@ -34,7 +34,7 @@
                         <li><a href="Dashboard"><i class="ti ti-home"></i><span>Dashboard</span>
 
 
-                        <li class="<?php echo (in_array('1',$this->session->parent_rights)?'':'hidden'); ?>"><a href="#/"><i class="ti ti-wallet"></i><span>Financing</span></a>
+<!--                         <li class="<?php echo (in_array('1',$this->session->parent_rights)?'':'hidden'); ?>"><a href="#/"><i class="ti ti-wallet"></i><span>Financing</span></a>
                             <ul class="acc-menu">
                                 <li class="<?php echo (in_array('1-1',$this->session->user_rights)?'':'hidden'); ?>"><a href="General_journal">General Journal</a></li>
                                 <li class="<?php echo (in_array('1-2',$this->session->user_rights)?'':'hidden'); ?>"><a href="Cash_disbursement">Cash Disbursement</a></li>
@@ -43,15 +43,15 @@
                                 <li class="<?php echo (in_array('1-6',$this->session->user_rights)?'':'hidden'); ?>"><a href="Petty_cash_journal">Petty Cash Journal</a></li>
                                 <li class="<?php echo (in_array('1-5',$this->session->user_rights)?'':'hidden'); ?>"><a href="Cash_receipt">Cash Receipt Journal</a></li>
                             </ul>
-                        </li>
-                        <li class="<?php echo (in_array('13',$this->session->parent_rights)?'':'hidden'); ?>"><a href="#/"><i class="ti ti-view-list-alt"></i><span>Services</span></a>
+                        </li> -->
+<!--                         <li class="<?php echo (in_array('13',$this->session->parent_rights)?'':'hidden'); ?>"><a href="#/"><i class="ti ti-view-list-alt"></i><span>Services</span></a>
                             <ul class="acc-menu">
                                 <li class="<?php echo (in_array('13-1',$this->session->user_rights)?'':'hidden'); ?>"><a href="Service_invoice">Service Invoice</a></li>
                                 <li class="<?php echo (in_array('13-2',$this->session->user_rights)?'':'hidden'); ?>"><a href="Service_journal">Service Journal</a></li>
                                 <li class="<?php echo (in_array('13-3',$this->session->user_rights)?'':'hidden'); ?>"><a href="Service_unit">Service Unit</a></li>
                                 <li class="<?php echo (in_array('13-4',$this->session->user_rights)?'':'hidden'); ?>"><a href="Services">Service Management</a></li>
                             </ul>
-                        </li>
+                        </li> -->
                         <li class="<?php echo (in_array('2',$this->session->parent_rights)?'':'hidden'); ?>"><a href="#/"><i class="ti ti-package"></i><span>Purchasing</span></a>
                             <ul class="acc-menu">
                                 <li class="<?php echo (in_array('2-1',$this->session->user_rights)?'':'hidden'); ?>"><a href="Purchases">Purchase Order</a></li>
@@ -102,22 +102,22 @@
                                 <li class="<?php echo (in_array('5-4',$this->session->user_rights)?'':'hidden'); ?>"><a href="Salesperson">Salesperson Management</a></li>
                             </ul>
                         </li>
-                        <li class="<?php echo (in_array('14',$this->session->parent_rights)?'':'hidden'); ?>"><a href="#/"><i class="ti ti-view-list-alt"></i><span>Treasury</span></a>
+<!--                         <li class="<?php echo (in_array('14',$this->session->parent_rights)?'':'hidden'); ?>"><a href="#/"><i class="ti ti-view-list-alt"></i><span>Treasury</span></a>
                             <ul class="acc-menu">
                                 <li class="<?php echo (in_array('14-1',$this->session->user_rights)?'':'hidden'); ?>"><a href="Treasury">Treasury</a></li>
                             </ul>
-                        </li>
-                        <li class="<?php echo (in_array('11',$this->session->parent_rights)?'':'hidden'); ?>"><a href="#/"><i class="ti ti-credit-card"></i><span>Bank Reconciliation</span></a>
+                        </li> -->
+<!--                         <li class="<?php echo (in_array('11',$this->session->parent_rights)?'':'hidden'); ?>"><a href="#/"><i class="ti ti-credit-card"></i><span>Bank Reconciliation</span></a>
                             <ul class="acc-menu">
                                 <li class="<?php echo (in_array('11-1',$this->session->user_rights)?'':'hidden'); ?>"><a href="Bank_reconciliation">Bank Reconciliation</a></li>
                             </ul>
-                        </li>
-                        <li class="<?php echo (in_array('10',$this->session->parent_rights)?'':'hidden'); ?>"><a href="#/"><i class="ti ti-bag"></i><span>Assets Management</span></a>
+                        </li> -->
+<!--                         <li class="<?php echo (in_array('10',$this->session->parent_rights)?'':'hidden'); ?>"><a href="#/"><i class="ti ti-bag"></i><span>Assets Management</span></a>
                             <ul class="acc-menu">
                                 <li class="<?php echo (in_array('10-1',$this->session->user_rights)?'':'hidden'); ?>"><a href="Fixed_asset_management">Fixed Asset Management</a></li>
                                 <li class="<?php echo (in_array('10-2',$this->session->user_rights)?'':'hidden'); ?>"><a href="Depreciation_expense">Depreciation Expense Report</a></li>
                             </ul>
-                        </li>
+                        </li> -->
 <!--                         <li class="<?php echo (in_array('15',$this->session->parent_rights)?'':'hidden'); ?>"><a href="#/"><i class="ti ti-file"></i><span>Bir Forms</span></a>
                             <ul class="acc-menu">
                                 <li class="<?php echo (in_array('15-1',$this->session->user_rights)?'':'hidden'); ?>"><a href="Form_2307">Form 2307</a></li>
@@ -142,7 +142,7 @@
                                 <li class="<?php echo (in_array('6-13',$this->session->user_rights)?'':'hidden'); ?>"><a href="Trail">Audit Trail</a></li>
                             </ul>
                         </li>
-                        <li class="<?php echo (in_array('9',$this->session->parent_rights)?'':'hidden'); ?>">
+<!--                         <li class="<?php echo (in_array('9',$this->session->parent_rights)?'':'hidden'); ?>">
                             <a href="#/"><i class="ti ti-bar-chart"></i><span>Accounting Reports</span></a>
                             <ul class="acc-menu parent-menu">
                                 <li class="hasChild secondChild">
@@ -177,7 +177,7 @@
                                     <a href="#/"><span>Other Accounting Report</span></a>
                                     <ul class="acc-menu">
                                         <li class="<?php echo (in_array('9-14',$this->session->user_rights)?'':'hidden'); ?>"><a href="TAccount">T-Accounts</a></li>
-                                        <!-- <li class="<?php echo (in_array('9-11',$this->session->user_rights)?'':'hidden'); ?>"><a href="Schedule_expense">Schedule of Expense</a></li> -->
+                                        <li class="<?php echo (in_array('9-11',$this->session->user_rights)?'':'hidden'); ?>"><a href="Schedule_expense">Schedule of Expense</a></li>
                                         <li class="<?php echo (in_array('9-8',$this->session->user_rights)?'':'hidden'); ?>"><a href="Account_Subsidiary">Account Subsidiary</a></li>
                                         <li class="<?php echo (in_array('9-13',$this->session->user_rights)?'':'hidden'); ?>"><a href="Replenishment_report">Replenishment Report</a></li>
                                         <li class="<?php echo (in_array('9-20',$this->session->user_rights)?'':'hidden'); ?>"><a href="Replenishment_batch">Replenishment Batch</a></li>
@@ -193,14 +193,14 @@
                                     </ul>
                                 </li>
                             </ul>
-                        </li>
-                        <li class="<?php echo (in_array('16',$this->session->parent_rights)?'':'hidden'); ?>"><a href="#/"><i class="ti ti-pie-chart"></i><span>BIR Forms</span></a>
+                        </li> -->
+<!--                         <li class="<?php echo (in_array('16',$this->session->parent_rights)?'':'hidden'); ?>"><a href="#/"><i class="ti ti-pie-chart"></i><span>BIR Forms</span></a>
                             <ul class="acc-menu">
                                 <li class="<?php echo (in_array('16-3',$this->session->user_rights)?'':'hidden'); ?>"><a href="Certificate_of_creditable_tax">2307</a></li>
                                 <li class="<?php echo (in_array('16-1',$this->session->user_rights)?'':'hidden'); ?>"><a href="Monthly_percentage_tax_return">2551M</a></li>
                                 <li class="<?php echo (in_array('16-2',$this->session->user_rights)?'':'hidden'); ?>"><a href="Quarterly_percentage_tax_return">2551Q</a></li>
                             </ul>
-                        </li>
+                        </li> -->
                         <li class="<?php echo (in_array('8',$this->session->parent_rights)?'':'hidden'); ?>"><a href="#/"><i class="ti ti-pie-chart"></i><span>Sales &amp; Purchasing</span></a>
                             <ul class="acc-menu">
                                 <li class="<?php echo (in_array('8-1',$this->session->user_rights)?'':'hidden'); ?>"><a href="Sales_detailed_summary">Sales Report</a></li>

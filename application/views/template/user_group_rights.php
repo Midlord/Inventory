@@ -74,7 +74,8 @@
                             <hr />
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <button id="btn_user_group_rights_<?php echo $user_group_id; ?>" class="btn btn-primary <?php echo ($user_group_id==1?'disabled':''); ?>" style="text-transform: none;"><i class="fa fa-check-circle"></i><span class=""></span> Save User Group Rights</button>
+                                    <button id="btn_user_group_rights_<?php echo $user_group_id; ?>" class="btn btn-primary" style="text-transform: none;"><i class="fa fa-check-circle"></i><span class=""></span> Save User Group Rights</button>
+                                    <!-- <button id="btn_user_group_rights_<?php echo $user_group_id; ?>" class="btn btn-primary <?php echo ($user_group_id==1?'disabled':''); ?>" style="text-transform: none;"><i class="fa fa-check-circle"></i><span class=""></span> Save User Group Rights</button> -->
                                 </div>
                             </div>
 
